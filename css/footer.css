@@ -1,0 +1,21 @@
+#contactos{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactame{
+    width: 100%;
+    text-align: center;
+}
+.footer-contact{
+    text-align: center;
+    width: 45%;
+    margin-top: 2vh;
+}
+@media (min-width: 768px){
+    .footer-contact{
+        width: 25%;
+    }
+}

@@ -1,0 +1,89 @@
+.redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+}
+.icons{
+    font-size: 25px;
+    margin: 1vh 0 2vh 0;
+}
+.data{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/image/Fondo.jpg);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cont-foto{
+    text-align: center;
+    margin: 1vh 0vh 1vh 0vh;
+}
+.foto{
+    width: 50vh;
+    height: 60vh;
+    border-radius: 50%;
+}
+.espacio{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.foto-art{
+    width: 50vh;
+    border-radius: 10%;
+}
+#ml{
+    background-color: rgb(1, 0, 19);
+}
+#h2pro{
+    background-color: black;
+}
+.cont-proyec{
+    background-color: rgb(0, 0, 0);
+    padding: 2vh;
+    text-align: center;
+}
+.proyec-text{
+    text-align: start;
+}
+#sobre-mi{
+    background-color: black;
+}
+@media (min-width: 768px){
+    #principal{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .redes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 3%;
+    }
+    .hero{
+        flex-direction: row;
+        width: 97%;
+    }
+    .cont-info{
+        width: 50%;
+        
+    }
+    .cont-foto{
+        width: 50%;
+    }
+    .foto{
+        width: 50vh;
+        height: 50vh;
+    }
+}
+@media (min-width: 1024px){
+    .cont-info{
+        font-size: 22px;
+        padding-top: 12vh;
+    }
+}
